@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Agdasima", sans-serif;
+    font-size: 20px;
+
+}
+
+header{
+    background-color: white;
+
+}
+
+.Menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Menu li {
+    list-style: none;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.Menu li a{
+    text-decoration: none;
+    color: #a1baa2 ;
+}
+
+.Menu li a:hover{
+    color: #c5a49d;
+
+}
+
+
+
+#sobre{
+    background-color: #c5a49d;
+    height: 90vh;
+    display: flex;
+}
+
+.foto img{
+    width: 300px;
+    border-radius: 20%;
+}
+
+.foto{
+    margin-top: 5%;
+    margin-right: 10%;
+
+}
+
+.titulo h1{
+    margin-left: 110px;
+    /* border: solid red 1px; */
+    max-width: 25%;
+    margin-bottom: 30px;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+#sobre .titulo h1{
+    color: #f7e5e2;
+}
+
+.titulo p{
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-right: 100px;
+    text-align: justify;
+    font-size: 30px;
+    max-width: 70%;
+}
+
+#habilidades{
+    background-color: #a1baa2;
+    height: 100vh;
+    
+}
+
+#habilidades .titulo h1{
+    font-size: 40px;
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+.container-icones{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    position: relative;
+    top: 60px
+    
+}
+
+.container-icones span{
+    font-size: 150px;
+    margin-bottom: 20px;
+    width: 300%; 
+
+}
+
+.container-icons .stars  {
+    font-size: 5px;
+    width:5px;
+}
+
+.icons{
+    text-align: center;
+    display: flex;
+    max-width: 50%;    
+    flex-basis: 30%; 
+}
+
+.stars img{
+    width: 180px;
+
+    
+}
+
+#projetos{
+    background-color: #c5a49d;
+    height: 100vh;
+    margin-top: 40px;
+}
+
+#projetos h1{
+    color: #f7e5e2;
+}
+.project{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.projeto{
+    background-color: #f7e5e2;
+    max-width: 29%;
+    height: 81vh;
+    border-radius: 5%;
+    font-size: 17px;
+}
+
+#projetos img{
+
+    margin-top: 8px;
+    width: 335px;
+    border-radius: 7%;
+    position: relative;
+    left: 30px;
+    border: 5px #c5a49d solid;
+}
+
+
+
+.subtitulo{
+    font-size: 30px;
+    text-align: center;
+    margin:0;
+    
+}
+
+
+#projetos p{
+    text-align:justify;
+    max-width: 80%;
+    margin-left: 35px;
+    margin-top: 19px;
+    color: black;
+}
+
+.rodape{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #a1baa2;
+    height: 70px;
+    align-items: flex-end;
+    font-size: 40px;
+}
+
+.rodape a{
+    color: #f7e5e2;
+    margin-right: 50px;
+}
+
+.rodape p{
+    color:#f7e5e2;
+    margin-left: 50px;
+}
+
+.rede{
+    font-size: 50px;
+}
